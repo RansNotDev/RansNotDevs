@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranyboy Templado - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">RansNotDev.Tech</div>
+        <div class="nav-links">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="animated-circles">
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+            </div>
+            <div class="animated-grid">
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+                <div class="grid-line"></div>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="glitch-wrapper">
+                <h1 class="glitch" data-text="Hi, I'm Rans Not Dev">
+                    Hi, I'm <span class="highlight">Rans Not Dev</span>
+                </h1>
+            </div>
+            <div class="animated-text-wrapper">
+                <h2 class="animate-text"></h2>
+                <div class="text-reveal-mask"></div>
+            </div>
+            <div class="typing-text">
+                <p class="animate-text typed-text"></p>
+                <p class="animate-text cursor">|</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary">
+                    <span class="btn-content">View My Work</span>
+                    <span class="btn-glitch"></span>
+                </a>
+                <a href="#contact" class="btn secondary">
+                    <span class="btn-content">Contact Me</span>
+                    <span class="btn-glitch"></span>
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="tech-stack-orbit">
+                <div class="orbit-circle primary-orbit"></div>
+                <div class="orbit-circle secondary-orbit"></div>
+                <!-- Primary Tech Stack -->
+                <div class="tech-item primary-stack" style="--i:1" data-tech="HTML5">
+                    <i class="fab fa-html5"></i>
+                    <span class="tech-label">HTML5</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:2" data-tech="CSS3">
+                    <i class="fab fa-css3-alt"></i>
+                    <span class="tech-label">CSS3</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:3" data-tech="JavaScript">
+                    <i class="fab fa-js"></i>
+                    <span class="tech-label">JavaScript</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:4" data-tech="PHP">
+                    <i class="fab fa-php"></i>
+                    <span class="tech-label">PHP</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:5" data-tech="MySQL">
+                    <i class="fas fa-database"></i>
+                    <span class="tech-label">MySQL</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:6" data-tech="Java">
+                    <i class="fab fa-java"></i>
+                    <span class="tech-label">Java</span>
+                </div>
+                <div class="tech-item primary-stack" style="--i:7" data-tech="VB.NET">
+                    <i class="fas fa-code"></i>
+                    <span class="tech-label">VB.NET</span>
+                </div>
+            </div>
+            <div class="code-animation">
+                <pre><code class="animated-code">{
+    "name": "Ranyboy Templado",
+    "role": "Full Stack Developer,
+     Student, Freelancer",
+    "passion": ["coding", "innovation"],
+    "status": "Graduating Student",
+    "leadership": "Capstone Project Leader"
+}</code></pre>
+                <div class="code-glow"></div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="particle-container"></div>
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>As a passionate Full Stack Developer and Capstone Project Leader, I combine technical expertise with leadership skills to create impactful web solutions. My journey in technology is driven by a desire to innovate and solve real-world problems through code.</p>
+                <p>Currently leading my team in developing cutting-edge solutions, I bring both technical proficiency and project management skills to every endeavor. I aspire to become a data analyst or software engineer, or work in any tech field, and I am an AI enthusiast. I have earned 20+ certificates from platforms like FreeCodeCamp, HackerRank, Udemy, and many others that offer free certificates.</p>
+            </div>
+            <div class="about-stats">
+                <div class="stat">
+                    <span class="number">4</span>
+                    <span class="label">Years of Coding</span>
+                </div>
+                <div class="stat">
+                    <span class="number">15</span>
+                    <span class="label">Projects Completed</span>
+                </div>
+                <div class="stat">
+                    <span class="number">1</span>
+                    <span class="label">Capstone Leadership</span>
+                </div>
+                <div class="stat">
+                    <span class="number">20+</span>
+                    <span class="label">Certifications</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="particle-container"></div>
+        <h2 class="section-title">Education</h2>
+        <div class="education-split-container">
+            <!-- Left Side: Education Timeline -->
+            <div class="education-timeline-container">
+                <div class="education-timeline-vertical">
+                    <!-- College -->
+                    <div class="education-step">
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="step-details">
+                                <h3>BS Information Technology</h3>
+                                <h4>Perpetual Help College of Pangasinan</h4>
+                                <p class="education-date">2021 - 2025</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Senior High School -->
+                    <div class="education-step">
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-school"></i>
+                            </div>
+                            <div class="step-details">
+                                <h3>TVL Track</h3>
+                                <h4>GSCNHS</h4>
+                                <p class="education-date">2018 - 2020</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Junior High School -->
+                    <div class="education-step">
+                        <div class="step-content">
+                            <div class="step-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="step-details">
+                                <h3>Junior High School</h3>
+                                <h4>TNHS</h4>
+                                <p class="education-date">2014 - 2018</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Achievements -->
+            <div class="achievements-container">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>Leadership Excellence</h4>
+                        <ul class="achievement-list">
+                            <li>Capstone Project Team Leader</li>
+                            <li>Web Development Lead</li>
+                            <li>System Design Specialist</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>Technical Skills</h4>
+                        <ul class="achievement-list">
+                            <li>Full Stack Development</li>
+                            <li>Database Management</li>
+                            <li>UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h4>Certifications</h4>
+                        <ul class="achievement-list">
+                            <li>Web Development</li>
+                            <li>Database Design</li>
+                            <li>System Architecture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="HTML5">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                        <hr>
+                    </div>
+                    <div class="skill-item" data-skill="CSS3">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                        <hr>
+                    </div>
+                    <div class="skill-item" data-skill="JavaScript">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <hr>
+                    </div>
+                    <div class="skill-item" data-skill="Figma">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-items">
+                    <div class="skill-item" data-skill="Node.js">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-item" data-skill="Python">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-item" data-skill="Java">
+                        <i class="fab fa-java"></i>
+                        <span>Java</span>
+                    </div>
+                    <div class="skill-item" data-skill="MySQL">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-item" data-skill="MongoDB">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-item" data-skill="Git">
+                        <i class="fab fa-git"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-item" data-skill="AWS">
+                        <i class="fab fa-aws"></i>
+                        <span>AWS</span>
+                    </div>
+                    <div class="skill-item" data-skill="Laravel">
+                        <i class="fab fa-laravel"></i>
+                        <span>Laravel</span>
+                    </div>
+                    <div class="skill-item" data-skill="PHP">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-item" data-skill="VB.NET">
+                        <i class="fas fa-code"></i>
+                        <span>VB.NET</span>
+                    </div>
+                    <div class="skill-item" data-skill="C++">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2 class="section-title">My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="images/PWDPWITHPIC.jpg" alt="Capstone Project">
+                </div>
+                <div class="project-info">
+                    <h3>Capstone Project</h3>
+                    <p>Leading the development of an innovative web application solving real-world problems.</p>
+                    <div class="project-tags">
+                        <span>React</span>
+                        <span>Node.js</span>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn">Live Demo</a>
+                        <a href="#" class="btn">Source Code</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>ranyboy.templado@email.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+63 123 456 789</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Pangasinan, Philippines</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ranyboy Templado. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
